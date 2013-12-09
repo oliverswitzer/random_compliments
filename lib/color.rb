@@ -14,6 +14,3 @@ class Color
   end
 
 end
-
-color = Color.new 
-puts color.hex
