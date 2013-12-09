@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+gem "sinatra"  #the sinatra framework
+
+
+#can group gems together that will be used for certain files. 
+group :development do
+  gem "shotgun"   #allows us to not have to restart our server everytime we update it
+  gem "tux"  #like a debugger, but for our app. Gives us a console to interact with 
+             #our data inside the application
+  gem "bootstrap"
+end
